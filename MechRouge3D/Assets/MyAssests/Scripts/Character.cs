@@ -13,7 +13,7 @@ public class Character : MonoBehaviour
     public Stat PhysicalDefence;
     public Stat ExplosiveDefence;
     public Stat EnergyDefence;
-    public float damageAfterDefence;
+    public List<Stat> AllStatsForItems = new List<Stat>();
     [SerializeField]
     private DamageType damage_type;
 
@@ -24,6 +24,7 @@ public class Character : MonoBehaviour
     
     public void TakeDamage(float damagetaken, DamageType typeofdamage)
     {
+        float damageAfterDefence;
         switch (typeofdamage)
         {
             case DamageType.Energy:
@@ -76,8 +77,24 @@ public class Character : MonoBehaviour
         projectile.GetComponent<Rigidbody>().velocity = velocitydirection * BulletSpeed.getStat();
 
     }
+    public void UpdateStats()
+    {
+        AllStatsForItems.Add(MaxHealth);
+        AllStatsForItems.Add(MaxShield);
+        AllStatsForItems.Add(Damage);
+        AllStatsForItems.Add(BulletSpeed);
+        AllStatsForItems.Add(PhysicalDefence);
+        AllStatsForItems.Add(ExplosiveDefence);
+        AllStatsForItems.Add(EnergyDefence);
+    }
     public virtual void Die()
     {
 
+    }
+    public Stat GetRandomStat()
+    {
+
+        int randomNum = Random.Range(0, 6);
+        return AllStatsForItems[randomNum];
     }
 }

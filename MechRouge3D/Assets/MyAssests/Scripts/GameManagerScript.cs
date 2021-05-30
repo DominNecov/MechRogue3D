@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManagerScript : MonoBehaviour
 {
     public List<ChestRarity> ChestToOpen = new List<ChestRarity>();
+    private List<Item> ItemsToView = new List<Item>();
     private float[] weights = {0,0,0,0,0};
     public float total;
 
@@ -17,7 +18,6 @@ public class GameManagerScript : MonoBehaviour
         weights[3] = epicChance;
         weights[4] = legendaryChance;
         float randomNumber = Random.Range(0, 100);
-        Debug.Log(randomNumber);
         foreach(float weight in weights)
         {
             total += weight;
@@ -59,6 +59,26 @@ public class GameManagerScript : MonoBehaviour
         foreach(ChestRarity enumToPrint in ChestToOpen)
         {
             Debug.Log(enumToPrint);
+        }
+    }
+    public void OpenChests()
+    {
+        foreach(ChestRarity chest in ChestToOpen)
+        {
+                Item itemToAdd = new HeadItem(chest);
+                ItemsToView.Add(itemToAdd);
+
+        }
+    }
+    private void Update()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            OpenChests();
+            foreach(Item itemToEquip in ItemsToView)
+            {
+                GameObject.FindObjectOfType<Hero>().EquipItem(itemToEquip);
+            }
         }
     }
 }

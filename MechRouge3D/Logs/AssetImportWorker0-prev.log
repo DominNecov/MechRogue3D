@@ -15,11 +15,11 @@ C:/Users/cuca9/Documents/GitHub/MechRogue3D/MechRouge3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58272
+65349
 Successfully changed project path to: C:/Users/cuca9/Documents/GitHub/MechRogue3D/MechRouge3D
 C:/Users/cuca9/Documents/GitHub/MechRogue3D/MechRouge3D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 89.93 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 80.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.3f1 (4bef613afd59)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,60 +35,66 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002868 seconds.
+Registered in 0.001976 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 92.21 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 68.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.104 seconds
+- Completed reload, in  1.718 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003611 seconds.
+Registered in 0.002803 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.375 seconds
+- Completed reload, in  0.982 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 118.8 MB.
 System memory in use after: 119.0 MB.
 
 Unloading 95 unused Assets to reduce memory usage. Loaded Objects now: 3559.
-Total: 4.221800 ms (FindLiveObjects: 0.314600 ms CreateObjectMapping: 0.127200 ms MarkObjects: 3.449000 ms  DeleteObjects: 0.328400 ms)
+Total: 2.152500 ms (FindLiveObjects: 0.210000 ms CreateObjectMapping: 0.081700 ms MarkObjects: 1.672900 ms  DeleteObjects: 0.185900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/MyAssests/Scripts/Character.cs
-  artifactKey: Guid(fc522512c8dd79043a61df972a9c995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyAssests/Scripts/Character.cs using Guid(fc522512c8dd79043a61df972a9c995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d8dc41eff466b6de4f6edae6105baa') in 0.029291 seconds 
+  path: Assets/MyAssests/Scripts/Item.cs
+  artifactKey: Guid(ea6e8ba93ec4e984e97b09f8128c6251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssests/Scripts/Item.cs using Guid(ea6e8ba93ec4e984e97b09f8128c6251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84f8f496e10daa3d6e9cf1ac3398d4d') in 0.018398 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.677663 seconds.
-  path: Assets/MyAssests/Scripts/Character.cs
-  artifactKey: Guid(fc522512c8dd79043a61df972a9c995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyAssests/Scripts/Character.cs using Guid(fc522512c8dd79043a61df972a9c995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b82d00ee7cea2b19d94ef22ea16cffd') in 0.002799 seconds 
+  Time since last request: 27.417840 seconds.
+  path: Assets/MyAssests/Scripts/Item.cs
+  artifactKey: Guid(ea6e8ba93ec4e984e97b09f8128c6251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssests/Scripts/Item.cs using Guid(ea6e8ba93ec4e984e97b09f8128c6251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2a484035dae28e9885ae7337dce420') in 0.006350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 332.324936 seconds.
+  path: Assets/MyAssests/Scripts/Item.cs
+  artifactKey: Guid(ea6e8ba93ec4e984e97b09f8128c6251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssests/Scripts/Item.cs using Guid(ea6e8ba93ec4e984e97b09f8128c6251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b432075e8923ba699a460453a130e5') in 0.007054 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004404 seconds.
+Registered in 0.005283 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -100,31 +106,37 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.990 seconds
+- Completed reload, in  3.134 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.0 MB.
+System memory in use before: 116.1 MB.
 System memory in use after: 116.3 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3562.
-Total: 3.209700 ms (FindLiveObjects: 0.481500 ms CreateObjectMapping: 0.209500 ms MarkObjects: 2.497000 ms  DeleteObjects: 0.020000 ms)
+Total: 5.792500 ms (FindLiveObjects: 0.493700 ms CreateObjectMapping: 0.356200 ms MarkObjects: 4.902000 ms  DeleteObjects: 0.037200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.546317 seconds.
-  path: Assets/MyAssests/Scripts/Hero.cs
-  artifactKey: Guid(f6bf029a01518b74d975dca096fdefda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyAssests/Scripts/Hero.cs using Guid(f6bf029a01518b74d975dca096fdefda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6208ea96098310410264a8dd23ff9dd') in 0.008961 seconds 
+  Time since last request: 924.051129 seconds.
+  path: Assets/MyAssests/Scripts/Item.cs
+  artifactKey: Guid(ea6e8ba93ec4e984e97b09f8128c6251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssests/Scripts/Item.cs using Guid(ea6e8ba93ec4e984e97b09f8128c6251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745d99942c5515915035d5a67221207a') in 0.025975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.020306 seconds.
+  path: Assets/MyAssests/Scripts/HeadItem.cs
+  artifactKey: Guid(2aae11884917a6542af1fa0da0a14054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssests/Scripts/HeadItem.cs using Guid(2aae11884917a6542af1fa0da0a14054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5397930a7e4ac89417691132390fbb9e') in 0.007131 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003113 seconds.
+Registered in 0.009015 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -136,55 +148,31 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.881 seconds
+- Completed reload, in  3.137 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.1 MB.
-System memory in use after: 116.3 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3565.
-Total: 2.554900 ms (FindLiveObjects: 0.365800 ms CreateObjectMapping: 0.194200 ms MarkObjects: 1.971600 ms  DeleteObjects: 0.020500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003328 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.021 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 116.1 MB.
 System memory in use after: 116.4 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3568.
-Total: 2.464200 ms (FindLiveObjects: 0.300700 ms CreateObjectMapping: 0.114900 ms MarkObjects: 2.031500 ms  DeleteObjects: 0.015500 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3566.
+Total: 2.742700 ms (FindLiveObjects: 0.222000 ms CreateObjectMapping: 0.086600 ms MarkObjects: 2.413400 ms  DeleteObjects: 0.018600 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1404.301269 seconds.
+  path: Assets/MyAssests/Scripts/HeadItem.cs
+  artifactKey: Guid(2aae11884917a6542af1fa0da0a14054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssests/Scripts/HeadItem.cs using Guid(2aae11884917a6542af1fa0da0a14054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb46dd8ea1c9daac3462594bee2d3c8') in 0.015988 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003860 seconds.
+Registered in 0.008262 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -196,25 +184,25 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.034 seconds
+- Completed reload, in  3.176 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 116.2 MB.
 System memory in use after: 116.4 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3571.
-Total: 2.568000 ms (FindLiveObjects: 0.250300 ms CreateObjectMapping: 0.097600 ms MarkObjects: 2.191500 ms  DeleteObjects: 0.026200 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3569.
+Total: 5.030400 ms (FindLiveObjects: 0.452500 ms CreateObjectMapping: 0.292700 ms MarkObjects: 4.251500 ms  DeleteObjects: 0.030900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003280 seconds.
+Registered in 0.010621 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.83 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -226,25 +214,25 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.052 seconds
+- Completed reload, in  3.331 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 116.2 MB.
 System memory in use after: 116.4 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3574.
-Total: 2.374400 ms (FindLiveObjects: 0.317900 ms CreateObjectMapping: 0.122900 ms MarkObjects: 1.916200 ms  DeleteObjects: 0.015600 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3572.
+Total: 4.196500 ms (FindLiveObjects: 0.651700 ms CreateObjectMapping: 0.311400 ms MarkObjects: 3.206300 ms  DeleteObjects: 0.024700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003507 seconds.
+Registered in 0.007843 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -256,15 +244,705 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
+- Completed reload, in  3.225 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 116.2 MB.
 System memory in use after: 116.4 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3577.
-Total: 1.832100 ms (FindLiveObjects: 0.216600 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.542400 ms  DeleteObjects: 0.013900 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3575.
+Total: 11.126700 ms (FindLiveObjects: 0.745900 ms CreateObjectMapping: 0.711700 ms MarkObjects: 9.604200 ms  DeleteObjects: 0.058200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.154 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.2 MB.
+System memory in use after: 116.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3578.
+Total: 5.321800 ms (FindLiveObjects: 0.489200 ms CreateObjectMapping: 0.225200 ms MarkObjects: 4.559000 ms  DeleteObjects: 0.045100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.994 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.2 MB.
+System memory in use after: 116.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3581.
+Total: 5.898000 ms (FindLiveObjects: 0.442600 ms CreateObjectMapping: 0.228200 ms MarkObjects: 5.177400 ms  DeleteObjects: 0.046500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011163 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.961 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.2 MB.
+System memory in use after: 116.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3584.
+Total: 5.922900 ms (FindLiveObjects: 0.440100 ms CreateObjectMapping: 0.224900 ms MarkObjects: 5.181600 ms  DeleteObjects: 0.074900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.895 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.2 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3587.
+Total: 6.534500 ms (FindLiveObjects: 0.450500 ms CreateObjectMapping: 0.201500 ms MarkObjects: 5.844100 ms  DeleteObjects: 0.035000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008858 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.083 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.2 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3590.
+Total: 5.829900 ms (FindLiveObjects: 0.361200 ms CreateObjectMapping: 0.149200 ms MarkObjects: 5.278100 ms  DeleteObjects: 0.039400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010797 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.571 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.2 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3593.
+Total: 6.137000 ms (FindLiveObjects: 0.923000 ms CreateObjectMapping: 0.352600 ms MarkObjects: 4.811800 ms  DeleteObjects: 0.045600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010791 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.270 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.2 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3596.
+Total: 5.327000 ms (FindLiveObjects: 0.232600 ms CreateObjectMapping: 0.091400 ms MarkObjects: 4.960100 ms  DeleteObjects: 0.041100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.810 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3599.
+Total: 8.606900 ms (FindLiveObjects: 0.435000 ms CreateObjectMapping: 0.227300 ms MarkObjects: 7.883600 ms  DeleteObjects: 0.057300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010763 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.219 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3602.
+Total: 4.322200 ms (FindLiveObjects: 0.523500 ms CreateObjectMapping: 0.237900 ms MarkObjects: 3.281600 ms  DeleteObjects: 0.277100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.101 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3605.
+Total: 5.524100 ms (FindLiveObjects: 0.452800 ms CreateObjectMapping: 0.254500 ms MarkObjects: 4.772600 ms  DeleteObjects: 0.042000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010482 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.008 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3608.
+Total: 5.337500 ms (FindLiveObjects: 0.442000 ms CreateObjectMapping: 0.254400 ms MarkObjects: 4.595400 ms  DeleteObjects: 0.041600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.148 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3611.
+Total: 6.166000 ms (FindLiveObjects: 0.599500 ms CreateObjectMapping: 0.341100 ms MarkObjects: 5.164200 ms  DeleteObjects: 0.058300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007084 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.116 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3614.
+Total: 4.662000 ms (FindLiveObjects: 0.333500 ms CreateObjectMapping: 0.159600 ms MarkObjects: 4.103900 ms  DeleteObjects: 0.062100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010642 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.057 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3617.
+Total: 5.949800 ms (FindLiveObjects: 0.444500 ms CreateObjectMapping: 0.221600 ms MarkObjects: 5.221900 ms  DeleteObjects: 0.058900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.965 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3620.
+Total: 3.617800 ms (FindLiveObjects: 0.381500 ms CreateObjectMapping: 0.197900 ms MarkObjects: 3.014100 ms  DeleteObjects: 0.023100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010732 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.834 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3623.
+Total: 5.731000 ms (FindLiveObjects: 0.456200 ms CreateObjectMapping: 0.230400 ms MarkObjects: 4.997800 ms  DeleteObjects: 0.042200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010858 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.923 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3626.
+Total: 5.486100 ms (FindLiveObjects: 0.401900 ms CreateObjectMapping: 0.282300 ms MarkObjects: 4.775200 ms  DeleteObjects: 0.024900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010769 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.194 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3629.
+Total: 4.333400 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.189700 ms MarkObjects: 3.822400 ms  DeleteObjects: 0.064200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.933 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3632.
+Total: 5.955000 ms (FindLiveObjects: 0.441700 ms CreateObjectMapping: 0.231000 ms MarkObjects: 5.231100 ms  DeleteObjects: 0.048100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010764 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.851 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3635.
+Total: 5.583700 ms (FindLiveObjects: 0.434800 ms CreateObjectMapping: 0.221300 ms MarkObjects: 4.882300 ms  DeleteObjects: 0.042800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011135 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.026 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.4 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3638.
+Total: 5.964200 ms (FindLiveObjects: 0.435300 ms CreateObjectMapping: 0.232100 ms MarkObjects: 5.234600 ms  DeleteObjects: 0.059500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010495 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.039 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.4 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3641.
+Total: 6.207100 ms (FindLiveObjects: 0.458900 ms CreateObjectMapping: 0.259400 ms MarkObjects: 5.409100 ms  DeleteObjects: 0.076200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Curtis/Documents/GitHub/MechRogue3D/MechRouge3D/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.088 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.4 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3644.
+Total: 5.669000 ms (FindLiveObjects: 0.469800 ms CreateObjectMapping: 0.235500 ms MarkObjects: 4.923300 ms  DeleteObjects: 0.038100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

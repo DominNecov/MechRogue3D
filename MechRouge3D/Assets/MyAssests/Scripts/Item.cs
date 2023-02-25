@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Item 
+public class Item 
 {
     public EquipSlot EquipSlot;
     public ChestRarity Chestlevel;
     public List<Modifier> ModList = new List<Modifier>();
- 
+
+    private int NumberOfMods;
+
     public void UnequipItem()
     {
         foreach (Modifier modToUnequip in ModList)
@@ -30,5 +32,70 @@ public abstract class Item
     public void RemoveModFromList (Modifier modToRemove)
     {
         ModList.Remove(modToRemove);
+    }
+
+    public void CreateItem(ChestRarity chestraritylevel)
+    {
+        
+        switch (chestraritylevel)
+        {
+            case ChestRarity.common:
+                NumberOfMods = 1;
+                break;
+            case ChestRarity.uncommon:
+                NumberOfMods = 2;
+                break;
+            case ChestRarity.rare:
+                NumberOfMods = 3;
+                break;
+            case ChestRarity.legendary:
+                NumberOfMods = 4;
+                break;
+            case ChestRarity.epic:
+                NumberOfMods = 5;
+                break;
+        }
+        for(int a = 1; a <= NumberOfMods; a++)
+        {
+            Modifier mod2UC = new Modifier(
+                    GameObject.FindObjectOfType<Character>().GetRandomStat(), true, Random.Range(0f,10f));
+            ModList.Add(mod2UC);
+        }
+        int RandomInt = Random.Range(0, 8);
+        if(RandomInt == 0)
+        {
+            EquipSlot = EquipSlot.head;
+        } else if (RandomInt == 1)
+        {
+            EquipSlot = EquipSlot.chest;
+        } else if (RandomInt == 2)
+        {
+            EquipSlot = EquipSlot.leftHand;
+        }
+        else if (RandomInt == 3)
+        {
+            EquipSlot = EquipSlot.rightHand;
+        }
+        else if (RandomInt == 4)
+        {
+            EquipSlot = EquipSlot.legs;
+        }
+        else if (RandomInt == 5)
+        {
+            EquipSlot = EquipSlot.back;
+        }
+        else if (RandomInt == 6)
+        {
+            EquipSlot = EquipSlot.rightShoulder;
+        }
+        else if (RandomInt == 7)
+        {
+            EquipSlot = EquipSlot.leftShoulder;
+        }
+        else if (RandomInt == 8)
+        {
+            EquipSlot = EquipSlot.belt;
+        }
+
     }
 }

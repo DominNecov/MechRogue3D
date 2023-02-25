@@ -5,8 +5,8 @@ using UnityEngine;
 public class Modifier 
 {
     public Stat TheStatToMod;
-    private bool additive;
-    private float amountToChange;
+    public bool additive;
+    public float amountToChange;
 
     public Modifier(Stat stattoset, bool boolToSet, float amountToSet)
     {

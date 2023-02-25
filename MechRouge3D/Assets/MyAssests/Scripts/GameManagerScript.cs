@@ -63,21 +63,29 @@ public class GameManagerScript : MonoBehaviour
     }
     public void OpenChests()
     {
+        int a = 0;
         foreach(ChestRarity chest in ChestToOpen)
         {
-                Item itemToAdd = new HeadItem(chest);
+                Item itemToAdd = new Item();
+                itemToAdd.CreateItem(chest);
                 ItemsToView.Add(itemToAdd);
-
         }
+        ChestToOpen.Clear();
     }
     private void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
             OpenChests();
-            foreach(Item itemToEquip in ItemsToView)
+            foreach (Item itemToEquip in ItemsToView)
             {
-                GameObject.FindObjectOfType<Hero>().EquipItem(itemToEquip);
+                for(int a =0; a< itemToEquip.ModList.Count; a++)
+                {
+                    Debug.Log(itemToEquip.ModList[a].TheStatToMod);
+                    Debug.Log(itemToEquip.ModList[a].additive);
+                    Debug.Log(itemToEquip.ModList[a].amountToChange);
+                }
+               Debug.Log(itemToEquip.EquipSlot);
             }
         }
     }

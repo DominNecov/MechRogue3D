@@ -339,6 +339,7 @@
 "Assets/MyAssests/Scripts/HeadItem.cs"
 "Assets/MyAssests/Scripts/Hero.cs"
 "Assets/MyAssests/Scripts/Item.cs"
+"Assets/MyAssests/Scripts/ItemData.cs"
 "Assets/MyAssests/Scripts/LevelGenerator.cs"
 "Assets/MyAssests/Scripts/Modifier.cs"
 "Assets/MyAssests/Scripts/MovementController.cs"

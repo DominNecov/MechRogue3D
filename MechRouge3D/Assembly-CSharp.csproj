@@ -73,6 +73,7 @@
     <Compile Include="Assets\MyAssests\Scripts\Stat.cs" />
     <Compile Include="Assets\MyAssests\Scripts\MovementController.cs" />
     <Compile Include="Assets\MyAssests\Scripts\AimingShootingController.cs" />
+    <Compile Include="Assets\MyAssests\Scripts\ItemData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

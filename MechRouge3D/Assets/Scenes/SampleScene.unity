@@ -819,12 +819,52 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: damage_type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: Damage.StatName
+      value: Damage
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: Health.StatName
+      value: Heatlh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
       propertyPath: Health.baseStat
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: Shield.StatName
+      value: Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: MaxHealth.StatName
+      value: Max Health
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
       propertyPath: MaxHealth.baseStat
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: MaxShield.StatName
+      value: Max Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: BulletSpeed.StatName
+      value: Bullet Speed
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: BulletSpeed.baseStat
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: EnergyDamage.StatName
+      value: Energy Damage
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: EnergyDefence.StatName
+      value: Energy Defence
       objectReference: {fileID: 0}
     - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
       propertyPath: Damage.statThatIsStored
@@ -835,12 +875,36 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: PhysicalDamage.StatName
+      value: Physical Damage
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: PhysicalDamage.baseStat
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: ExplosiveDamage.StatName
+      value: Explosive Damage
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: PhysicalDefence.StatName
+      value: Physical Defence
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: ExplosiveDefence.StatName
+      value: Explosive Defence
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
       propertyPath: MaxHealth.statThatIsStored
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
       propertyPath: BulletSpeed.statThatIsStored
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829063695956821167, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}
+      propertyPath: PhysicalDamage.statThatIsStored
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b83ca57579f27945aa8a06127d75c9f, type: 3}

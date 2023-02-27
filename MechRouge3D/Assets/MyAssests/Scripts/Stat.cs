@@ -6,6 +6,8 @@ using UnityEngine;
 public class Stat
 {
     [SerializeField]
+    public string StatName;
+    [SerializeField]
     private float statThatIsStored;
     [SerializeField]
     private float baseStat;
@@ -17,6 +19,10 @@ public class Stat
     public float getStat()
     {
         return statThatIsStored;
+    }
+    public void setStatName(string StatNameToSet)
+    {
+        StatName = StatNameToSet;
     }
     public void setStat(float newStat)
     {

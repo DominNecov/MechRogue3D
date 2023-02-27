@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item 
+public class Item
 {
     public EquipSlot EquipSlot;
+    public string ItemName;
     public ChestRarity Chestlevel;
     public List<Modifier> ModList = new List<Modifier>();
 
@@ -40,26 +41,20 @@ public class Item
         switch (chestraritylevel)
         {
             case ChestRarity.common:
-                NumberOfMods = 1;
+                NumberOfMods = 0;
                 break;
             case ChestRarity.uncommon:
-                NumberOfMods = 2;
+                NumberOfMods = 1;
                 break;
             case ChestRarity.rare:
-                NumberOfMods = 3;
+                NumberOfMods = 2;
                 break;
             case ChestRarity.legendary:
-                NumberOfMods = 4;
+                NumberOfMods = 3;
                 break;
             case ChestRarity.epic:
-                NumberOfMods = 5;
+                NumberOfMods = 4;
                 break;
-        }
-        for(int a = 1; a <= NumberOfMods; a++)
-        {
-            Modifier mod2UC = new Modifier(
-                    GameObject.FindObjectOfType<Character>().GetRandomStat(), true, Random.Range(0f,10f));
-            ModList.Add(mod2UC);
         }
         int RandomInt = Random.Range(0, 8);
         if(RandomInt == 0)
@@ -96,6 +91,11 @@ public class Item
         {
             EquipSlot = EquipSlot.belt;
         }
-
+        for (int a = 1; a <= NumberOfMods; a++)
+        {
+            Modifier mod2UC = new Modifier(
+                    GameObject.FindObjectOfType<Hero>().GetRandomStat(), true, Random.Range(0f, 10f));
+            ModList.Add(mod2UC);
+        }
     }
 }

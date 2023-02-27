@@ -8,7 +8,9 @@ public class Character : MonoBehaviour
     public Stat MaxHealth;
     public Stat Shield;
     public Stat MaxShield;
-    public Stat Damage;
+    public Stat PhysicalDamage;
+    public Stat EnergyDamage;
+    public Stat ExplosiveDamage;
     public Stat BulletSpeed;
     public Stat PhysicalDefence;
     public Stat ExplosiveDefence;
@@ -72,16 +74,28 @@ public class Character : MonoBehaviour
         {
             projectile.GetComponent<ProjectileScript>().HerosBullet = true;
         }
-        projectile.GetComponent<ProjectileScript>().Damage = Damage.getStat();
+        switch (damage_type)
+        {
+            case DamageType.Physical:
+                projectile.GetComponent<ProjectileScript>().Damage = PhysicalDamage.getStat();
+                break;
+            case DamageType.Energy:
+                projectile.GetComponent<ProjectileScript>().Damage = EnergyDamage.getStat();
+                break;
+            case DamageType.Explosive:
+                projectile.GetComponent<ProjectileScript>().Damage = ExplosiveDamage.getStat();
+                break;        
+        }
         projectile.GetComponent<ProjectileScript>().damagetype = damage_type;
         projectile.GetComponent<Rigidbody>().velocity = velocitydirection * BulletSpeed.getStat();
-
     }
     public void UpdateStats()
     {
         AllStatsForItems.Add(MaxHealth);
         AllStatsForItems.Add(MaxShield);
-        AllStatsForItems.Add(Damage);
+        AllStatsForItems.Add(PhysicalDamage);
+        AllStatsForItems.Add(ExplosiveDamage);
+        AllStatsForItems.Add(EnergyDamage);
         AllStatsForItems.Add(BulletSpeed);
         AllStatsForItems.Add(PhysicalDefence);
         AllStatsForItems.Add(ExplosiveDefence);
@@ -94,7 +108,7 @@ public class Character : MonoBehaviour
     public Stat GetRandomStat()
     {
 
-        int randomNum = Random.Range(0, 6);
+        int randomNum = Random.Range(0, AllStatsForItems.Count);
         return AllStatsForItems[randomNum];
     }
 }

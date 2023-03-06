@@ -11,6 +11,14 @@ public class Stat
     private float statThatIsStored;
     [SerializeField]
     private float baseStat;
+    [SerializeField]
+    public float minAdditive = 10f;
+    [SerializeField]
+    public float maxAdditive = 30f;
+    [SerializeField]
+    public float minMultiplier = 0.05f;
+    [SerializeField]
+    public float maxMultiplier = 0.5f;
     private List<float> additiveMultipliers = new List<float>();
     private List<float> multipliers = new List<float>();
     private float totalmultiplier;

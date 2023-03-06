@@ -6,6 +6,7 @@ public class Hero : Character
 {
     public Dictionary<EquipSlot,Item> EquipedItems = new Dictionary<EquipSlot,Item>();
     private EquipSlot equipSlot;
+    private AimingShootingController controllerRef;
     
     private void Start()
     {
@@ -19,6 +20,8 @@ public class Hero : Character
         EquipedItems.Add(EquipSlot.legs, null);
         EquipedItems.Add(EquipSlot.back, null);
         this.UpdateStats();
+        controllerRef = GetComponent<AimingShootingController>();
+        controllerRef.UpdateTimer(FireRate.getStat());
     }
     public override void Die()
     {

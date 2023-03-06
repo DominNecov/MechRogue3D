@@ -59,13 +59,14 @@
     <Compile Include="Assets\MyAssests\Scripts\DamageType.cs" />
     <Compile Include="Assets\MyAssests\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\MyAssests\Scripts\Enemy.cs" />
+    <Compile Include="Assets\MyAssests\Scripts\ItemData.cs" />
+    <Compile Include="Assets\MyAssests\Scripts\StatGroups.cs" />
     <Compile Include="Assets\MyAssests\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\MyAssests\Scripts\LevelGenerator.cs" />
     <Compile Include="Assets\MyAssests\Scripts\EquipSlot.cs" />
     <Compile Include="Assets\MyAssests\Scripts\Character.cs" />
     <Compile Include="Assets\MyAssests\Scripts\Hero.cs" />
     <Compile Include="Assets\MyAssests\Scripts\Modifier.cs" />
-    <Compile Include="Assets\MyAssests\Scripts\HeadItem.cs" />
     <Compile Include="Assets\MyAssests\Scripts\TileStructure.cs" />
     <Compile Include="Assets\MyAssests\Scripts\ChestRarity.cs" />
     <Compile Include="Assets\MyAssests\Scripts\Item.cs" />
@@ -73,7 +74,6 @@
     <Compile Include="Assets\MyAssests\Scripts\Stat.cs" />
     <Compile Include="Assets\MyAssests\Scripts\MovementController.cs" />
     <Compile Include="Assets\MyAssests\Scripts\AimingShootingController.cs" />
-    <Compile Include="Assets\MyAssests\Scripts\ItemData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -312,12 +312,6 @@
     </Reference>
     <Reference Include="Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.5.2\Runtime\VisualScripting.Flow\Dependencies\NCalc\Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.3f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.3f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.3f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

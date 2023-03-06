@@ -63,7 +63,6 @@ public class GameManagerScript : MonoBehaviour
     }
     public void OpenChests()
     {
-        int a = 0;
         foreach(ChestRarity chest in ChestToOpen)
         {
                 Item itemToAdd = new Item();
@@ -81,7 +80,7 @@ public class GameManagerScript : MonoBehaviour
             {
                 for(int a =0; a< itemToEquip.ModList.Count; a++)
                 {
-                    Debug.Log(itemToEquip.ModList[a].TheStatToMod);
+                    Debug.Log(itemToEquip.ModList[a].TheStatToMod.StatName);
                     Debug.Log(itemToEquip.ModList[a].additive);
                     Debug.Log(itemToEquip.ModList[a].amountToChange);
                 }

@@ -36,7 +36,7 @@ public class AimingShootingController : MonoBehaviour
             pointToLookAt.y += 1f;
         }
         shoot_timer += Time.deltaTime;
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         {
             shoot_pressed = true;
         }
@@ -51,5 +51,9 @@ public class AimingShootingController : MonoBehaviour
             GetComponentInParent<Hero>().SpawnProjectile(BulletPrefab, BulletSpawnLocation, TurretRigidbodyMainCharacter.forward);
         }
         shoot_pressed = false;
+    }
+    public void UpdateTimer(float NewTimerAmount)
+    {
+        max_shoot_timer = NewTimerAmount;
     }
 }

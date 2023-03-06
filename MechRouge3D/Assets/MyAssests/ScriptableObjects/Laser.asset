@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d70dbc7140f55d64b9f8c566b315677f, type: 3}
+  m_Name: Laser
+  m_EditorClassIdentifier: 
+  ItemName: Laser
+  NumberOfDefaultStats: 2
+  DeFaultStatOneAdditive: 1
+  DefaultStat1: Energy Damage
+  DefaultAmount1: 40
+  DeFaultStatTwoAdditive: 1
+  DefaultStat2: Fire Rate
+  DefaultAmount2: 0.1
+  DeFaultStatThreeAdditive: 1
+  DefaultStat3: 
+  DefaultAmount3: 0
+  EquipmentSlot: 2
+  Icon: {fileID: 0}
+  Statpool: 0
